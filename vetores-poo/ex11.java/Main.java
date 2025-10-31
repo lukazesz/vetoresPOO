@@ -4,13 +4,14 @@ public class Main {
     public static void main(String[] args) {
 
         int[] vetorA = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-
+        int contador = 0;
         for(int i = 0; i < vetorA.length; i ++){
+            
             if (vetorA[i] % 2 == 0){
-                int[] elementosPares = vetorA;
-                System.out.println(elementosPares[i]);
+                contador ++;
             }
         }
+        System.out.println(contador);
 
     }
 }
